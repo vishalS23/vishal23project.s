@@ -1,0 +1,37 @@
+Ecommerce Project :
+
+Localstorage :
+Register
+Login
+Context - Global data management - name, id, email, imageurl
+
+Fakestore - backend :
+Home - ads
+Navbar - Mens, Womens, Electronics
+Mens - All products
+Singlen Products page - add to cart
+Cart
+
+6 pages
+
+Steps:
+1.
+Use terminal and run command - npx create-react-app client
+                             - cd client
+                             - npm start
+
+2.
+Router - npm i react-router-dom
+       - add BrowserRouter in index.js
+       - add Routes and router in app.js, use attributes called path, element
+3.
+context
+1. import createcontext
+2. make instance and export
+3. buil reducer and initial state = {name, id, email, imageurl}
+4. write HOC , usereducer and export
+5. add HOC into index.js over app
+
+4. 
+Register:
+Create html section along with state
